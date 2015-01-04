@@ -1,0 +1,19 @@
+{
+	"name": "to-the-top",
+	"version": "0.0.1",
+	"description": "\"Back to the top\"-browser widget",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/srcagency/to-the-top"
+	},
+	"dependencies": {
+		"html-me": "srcagency/html-me"
+	},
+	"keywords": [
+		"scroll",
+		"ui",
+		"browser"
+	],
+	"author": "Thomas Jensen <thomas@src.agency> (http://src.agency)",
+	"license": "MIT"
+}
