@@ -17,6 +17,9 @@ Thing.byPages = function( w /* window */, pages, $ ){
 };
 
 function Thing( w /* window */, decidingFn, threshold, $ ){
+	if (!(this instanceof Thing))
+		return new Thing(w, decidingFn, threshold, $);
+
 	this.decidingFn = decidingFn;
 
 	if (!$) {
